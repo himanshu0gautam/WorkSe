@@ -312,7 +312,7 @@ const TrustSection = () => {
         {/* Section Title */}
         <div className="text-center max-w-2xl mx-auto mb-8">
           <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0B132B]">
-            Why Homeowners Trust bulaoMistri
+            Why Homeowners Trust WorkSe
           </h2>
           <p className="mt-2 text-xs sm:text-sm text-slate-500 leading-relaxed">
             Direct communication with certified tradesmen without middlemen charging huge commissions.

@@ -17,7 +17,7 @@ import {
   Search,
   X,
 } from 'lucide-react';
-import logo from '../../../public/logo.png'
+import logo from '../../../public/logo2.png'
 
 const Navbar = () => {
 
@@ -37,21 +37,11 @@ const Navbar = () => {
         </div> */}
 
         <div className="mx-auto flex min-h-[78px] max-w-[1440px] items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-          <a href="/" className="flex shrink-0 items-center gap-3" aria-label="bulaoMistri home">
-            <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#202B4C] text-[#D99416] shadow-md">
-              <Handshake className="h-7 w-7" strokeWidth={2.5} />
-            </span>
-            <span className="leading-tight">
-              <span className="block text-[25px] font-extrabold tracking-tight">
-                bulaoMistri
-              </span>
-              <span className="block text-xs font-semibold text-slate-500">
-                बुलाओ मिस्त्री • सीधी बात, सीधा काम
-              </span>
-            </span>
-          </a>
-
-
+          <div className="">
+            <a href="/" className="flex h-16 w-48 items-center justify-start" aria-label="bulaoMistri home">
+              <img className='w-full h-full object-cover' src={logo} alt="" />
+            </a>
+          </div>
 
           <div className="hidden items-center gap-3 lg:flex">
             <button className="hidden min-w-0 items-center rounded-full border border-slate-200 bg-slate-50 px-4 py-2.5 text-left transition hover:bg-[#2d3b63] xl:flex">
@@ -88,7 +78,7 @@ const Navbar = () => {
 
         <div className="hidden border-y border-slate-200 bg-slate-50 lg:block">
           <div className="mx-auto flex min-h-[52px] max-w-[1440px] items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
-            <nav className="flex h-full min-w-0 items-center gap-7 text-sm font-semibold">
+            <nav className="flex h-full min-w-0 items-center gap-7 text-sm font-semibold pl-8">
               <a href="#workers" className="flex h-[52px] items-center gap-2 text-slate-600 transition hover:text-[#202B4C]">
                 How it Work
               </a>

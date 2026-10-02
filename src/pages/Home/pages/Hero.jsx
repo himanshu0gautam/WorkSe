@@ -466,7 +466,7 @@ const ZeroBrokerDifference = () => {
           {/* Card 2: bulaoMistri Direct (Dark Card) */}
           <div className="bg-[#0B132B] text-white border-2 border-[#D4A373] rounded-2xl p-6 sm:p-8 relative shadow-xl">
             <div className="inline-block bg-[#D4A373] text-[#0B132B] text-xs font-black px-3 py-1 rounded-full mb-4">
-              bulaoMistri Direct Marketplace
+              WorkSe Direct Marketplace
             </div>
             <h3 className="text-xl font-black text-white mb-4">100% Direct Talk • 0% Brokerage</h3>
 

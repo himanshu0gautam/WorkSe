@@ -5,6 +5,7 @@ import {
   Globe,
   Heart
 } from 'lucide-react';
+import Wicon from '../../../public/w.svg'
 
 const Footer = () => {
   return (
@@ -15,8 +16,10 @@ const Footer = () => {
             {/* Brand Col */}
             <div className="md:col-span-1">
               <div className="flex items-center space-x-2 mb-3">
-                <div className="bg-[#D4A373] text-[#0B132B] p-1.5 rounded-lg font-black text-lg">bM</div>
-                <span className="text-xl font-black text-white">bulao<span className="text-[#D4A373]">Mistri</span></span>
+                <div className="rounded-lg font-black text-lg">
+                  <img src={Wicon} alt="" />
+                </div>
+                <span className="text-xl font-black text-white">Work<span className="text-[#D4A373]">Se</span></span>
               </div>
               <p className="text-xs text-slate-400 leading-relaxed mb-4">
                 Connecting households & businesses directly with local artisans with zero brokerage fees.
@@ -67,7 +70,7 @@ const Footer = () => {
 
           {/* Bottom Copyright */}
           <div className="pt-6 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-2">
-            <div>© {new Date().getFullYear()} bulaoMistri. All rights reserved. Direct Karigar Network.</div>
+            <div>© {new Date().getFullYear()} WorkSe. All rights reserved. Direct Karigar Network.</div>
             <div className="flex items-center space-x-1">
               <span>Made with</span>
               <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />
